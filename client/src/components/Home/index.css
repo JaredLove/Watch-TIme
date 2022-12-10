@@ -1,0 +1,42 @@
+.cover {
+    /* The image used */
+    /* Photo by "https://unsplash.com/@timothyeberly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"Timothy Eberly"https://unsplash.com/s/photos/movies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
+  
+    background-image: url("../../assets/images/wheel.jpg");
+ 
+    /* Full height */
+    width: 100%;
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .coverContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-width: 770px;
+    padding-top: 105px;
+    padding-bottom: 84px;
+    margin-bottom: 20vh;
+    top: 180px;
+    left: 560px;
+}
+
+.coverH1 {
+    font-size: 70px;
+}
+
+.coverH2 {
+    font-size: 20px;
+}
+
